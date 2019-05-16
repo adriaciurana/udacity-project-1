@@ -9,12 +9,15 @@ class Config:
 	
 	ENVS_PATH = os.path.join(PROJECT_PATH, "envs")
 	CHECKPOINT_PATH = os.path.join(PROJECT_PATH, "checkpoints")
+	MODELS_PATH = os.path.join(PROJECT_PATH, "models")
 	
 	BANANA_ENV_PATH = os.path.join(ENVS_PATH, "Banana_Linux", "Banana.x86_64")
 	CHECKPOINT_BANANA_PATH = os.path.join(CHECKPOINT_PATH, "banana")
+	MODEL_BANANA_PATH = os.path.join(MODELS_PATH, "banana")
 
 	BANANA_PIXELS_ENV_PATH = os.path.join(ENVS_PATH, "VisualBanana_Linux", "Banana.x86_64")
 	CHECKPOINT_PIXELS_BANANA_PATH = os.path.join(CHECKPOINT_PATH, "banana_pixels")
+	MODEL_PIXELS_BANANA_PATH = os.path.join(MODELS_PATH, "banana_pixels")
 
 	PRETRAINED_MOBILENET_V2_1 = os.path.join(CURRENT_PATH, "mobilenetv2", "mobilenetv2_1.0-0c6065bc.pth")
 	PRETRAINED_MOBILENET_V2_05 = os.path.join(CURRENT_PATH, "mobilenetv2", "mobilenetv2_0.5-eaa6f9ad.pth")
